@@ -320,11 +320,3 @@ button {
   flex-direction: column;
   gap: 10px;
 }
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-  padding: 0px 0px 100px 0px;
-}
