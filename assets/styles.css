@@ -97,6 +97,10 @@ p {
   color: rgb(0, 102, 204);
 }
 
+.block {
+  width: fit-content;
+}
+
 /* ---- NAV STYLING ---- */
 nav {
   width: 100%;
@@ -210,6 +214,12 @@ button {
   gap: 15px;
 }
 
+.three-by-one-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
 .privacy-statement {
   margin: 0px 0px 100px 0px;
   max-width: 500px;
@@ -221,6 +231,7 @@ button {
 
 .white-background {
   background-color: white;
+  padding: 0px 0px 100px 0px;
 }
 
 /* ---- CARD STYLING ---- */
@@ -291,4 +302,20 @@ button {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.info-cards {
+  background-color: #f7f7f7;
+  padding: 30px 30px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-spacing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
